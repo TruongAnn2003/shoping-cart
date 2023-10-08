@@ -51,6 +51,6 @@
                 <version>3.3.2</version>
             </plugin>
         </plugins>
-        <finalName>shopingcart</finalName>
+        <finalName>shoppingcart</finalName>
     </build>
 </project>
