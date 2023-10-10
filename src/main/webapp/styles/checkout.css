@@ -1,0 +1,90 @@
+.checkout-child {
+    position: absolute;
+    top: 180px;
+    left: 312px;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-white);
+    box-shadow: 81px 195px 59px transparent, 52px 125px 54px rgba(0, 0, 0, 0.01),
+      29px 70px 46px rgba(0, 0, 0, 0.05), 13px 31px 34px rgba(0, 0, 0, 0.09),
+      3px 8px 19px rgba(0, 0, 0, 0.1);
+    width: 916px;
+    height: 548px;
+  }
+  .group-icon {
+    position: absolute;
+    height: 18.9%;
+    width: 13.53%;
+    top: 21.19%;
+    right: 43.22%;
+    bottom: 59.9%;
+    left: 43.25%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .checkout-isnt-finished {
+    position: absolute;
+    top: 406px;
+    left: 466px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 609px;
+    height: 248px;
+  }
+  .shopping-btn-icon {
+    position: absolute;
+    height: 3.95%;
+    width: 9.35%;
+    top: 21.19%;
+    right: 22.47%;
+    bottom: 74.85%;
+    left: 68.18%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .checkout-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkslateblue-100);
+    width: 1540px;
+    height: 80px;
+  }
+  .logo-icon {
+    position: absolute;
+    height: 6.89%;
+    width: 2.79%;
+    top: 0.72%;
+    right: 93.9%;
+    bottom: 92.39%;
+    left: 3.31%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .home-btn-icon,
+  .shoping-btn-icon {
+    position: absolute;
+    top: 12px;
+    left: 1374px;
+    width: 57px;
+    height: 57px;
+  }
+  .shoping-btn-icon {
+    left: 1454px;
+  }
+  .checkout {
+    position: relative;
+    background-color: var(--color-lavenderblush);
+    width: 100%;
+    height: 972px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 60px;
+    color: var(--color-palevioletred-100);
+    font-family: var(--font-mali);
+  }
+  

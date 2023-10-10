@@ -1,0 +1,357 @@
+.menu-img-icon,
+.milk-tea-1 {
+  position: absolute;
+  object-fit: cover;
+}
+.menu-img-icon {
+  height: 4.06%;
+  width: 46.88%;
+  top: 39.2%;
+  right: 26.56%;
+  bottom: 56.74%;
+  left: 26.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.milk-tea-1 {
+  top: 20px;
+  left: 24px;
+  border-radius: 15px;
+  width: 924px;
+  height: 519px;
+}
+.milk-tea-1-wrapper {
+  position: absolute;
+  top: 100px;
+  left: 512px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 41px 94px 29px transparent, 26px 60px 26px rgba(0, 0, 0, 0.01),
+  15px 34px 22px rgba(0, 0, 0, 0.05), 7px 15px 16px rgba(0, 0, 0, 0.09),
+  2px 4px 9px rgba(0, 0, 0, 0.1);
+  width: 973px;
+  height: 559px;
+  overflow: hidden;
+}
+.milktea-icon {
+  position: absolute;
+  height: 28.52%;
+  width: 37.99%;
+  top: 4.82%;
+  right: 62.01%;
+  bottom: 66.66%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product-child {
+  position: absolute;
+  height: 58.62%;
+  width: 70.72%;
+  top: 32.24%;
+  right: 14.73%;
+  bottom: 9.14%;
+  left: 14.55%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  box-shadow: 34px 27px 12px transparent, 22px 18px 11px rgba(0, 0, 0, 0.01),
+  12px 10px 9px rgba(0, 0, 0, 0.05), 5px 4px 7px rgba(0, 0, 0, 0.09),
+  1px 1px 4px rgba(0, 0, 0, 0.1);
+  border: 3px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+}
+.matcha-milk-tea,
+.product-item {
+  position: absolute;
+  width: 38.86%;
+  left: 43.09%;
+}
+.product-item {
+  height: 8.57%;
+  top: 38.25%;
+  right: 18.05%;
+  bottom: 53.19%;
+  border-radius: var(--br-8xs);
+  border-bottom: 1px solid var(--color-darkslateblue-100);
+  box-sizing: border-box;
+}
+.matcha-milk-tea {
+  height: 5.78%;
+  top: 39.64%;
+  font-size: var(--font-size-3xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-inner {
+  position: absolute;
+  height: 19.92%;
+  width: 39.96%;
+  top: 48.01%;
+  right: 17.5%;
+  bottom: 32.07%;
+  left: 42.54%;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-lightpink-200);
+}
+.the-sweetness-of {
+  position: absolute;
+  height: 16.73%;
+  width: 36.65%;
+  top: 49.4%;
+  left: 44.01%;
+  font-size: var(--font-size-3xs);
+  display: flex;
+  color: var(--color-darkslateblue-100);
+  align-items: center;
+  justify-content: center;
+}
+.matcha-icon,
+.milk-img-icon {
+  position: absolute;
+  height: 18.05%;
+  width: 29.62%;
+  top: 60.56%;
+  right: 54.54%;
+  bottom: 21.39%;
+  left: 15.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.matcha-icon {
+  height: 63.29%;
+  width: 44.67%;
+  top: 9.24%;
+  right: 44.4%;
+  bottom: 27.47%;
+  left: 10.93%;
+}
+.btn-add-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-darkslateblue-100);
+}
+.add-to-cart {
+  position: absolute;
+  height: 48.48%;
+  width: 54.35%;
+  top: 24.24%;
+  left: 23.04%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-add {
+  position: absolute;
+  height: 6.57%;
+  width: 42.36%;
+  top: 79.88%;
+  right: 28.91%;
+  bottom: 13.55%;
+  left: 28.73%;
+  color: var(--color-white);
+}
+.price-child {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  border-top: 1px solid var(--color-lightpink-100);
+  border-bottom: 1px solid var(--color-lightpink-100);
+  box-sizing: border-box;
+  width: 168.53px;
+}
+.price-12,
+.price-child,
+.price2 {
+  position: absolute;
+  height: 32px;
+}
+.price-12 {
+  top: 0;
+  left: 1.07px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 166.4px;
+}
+.price2 {
+  top: 405px;
+  left: 304px;
+  width: 168.53px;
+}
+.flower-matcha-icon,
+.product {
+  position: absolute;
+  overflow: hidden;
+}
+.flower-matcha-icon {
+  height: 27.19%;
+  width: 28.63%;
+  top: 17.23%;
+  right: 0.6%;
+  bottom: 55.57%;
+  left: 70.76%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product {
+  top: 1020px;
+  left: 119px;
+  width: 621px;
+  height: 574px;
+}
+.scream-icon {
+  height: 63.98%;
+  width: 36.35%;
+  top: 7.14%;
+  right: 52.86%;
+  bottom: 28.88%;
+  left: 10.79%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product1,
+.scream-icon,
+.strawberry-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.strawberry-icon {
+  height: 20.38%;
+  width: 24.03%;
+  top: 19.86%;
+  right: 5.44%;
+  bottom: 59.76%;
+  left: 70.53%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product1 {
+  top: 1020px;
+  left: 800px;
+  width: 621px;
+  height: 574px;
+}
+.blueberry-icon,
+.blueberry-milktea-icon {
+  position: absolute;
+  height: 24.48%;
+  width: 26.25%;
+  top: 15.68%;
+  right: 3.06%;
+  bottom: 59.84%;
+  left: 70.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.blueberry-milktea-icon {
+  height: 59.9%;
+  width: 45.89%;
+  top: 8.54%;
+  right: 40.1%;
+  bottom: 31.56%;
+  left: 14.01%;
+}
+.product2 {
+  position: absolute;
+  top: 1654px;
+  left: 800px;
+  width: 621px;
+  height: 574px;
+  overflow: hidden;
+}
+.tranchau-icon {
+  height: 65.9%;
+  width: 63.39%;
+  top: 12.89%;
+  right: 36.61%;
+  bottom: 21.21%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.black-sugar-icon,
+.product3,
+.tranchau-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.black-sugar-icon {
+  height: 35.75%;
+  width: 33.01%;
+  top: 12.2%;
+  right: 0;
+  bottom: 52.05%;
+  left: 66.99%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.product3 {
+  top: 1654px;
+  left: 119px;
+  width: 621px;
+  height: 574px;
+}
+.index-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslateblue-100);
+  width: 1540px;
+  height: 80px;
+}
+.logo-icon2 {
+  position: absolute;
+  height: 2.97%;
+  width: 2.79%;
+  top: 0.26%;
+  right: 94.55%;
+  bottom: 96.77%;
+  left: 2.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.home-btn-icon2,
+.shoping-btn-icon2 {
+  position: absolute;
+  top: 12px;
+  width: 57px;
+  height: 57px;
+}
+.shoping-btn-icon2 {
+  left: 1443px;
+  cursor: pointer;
+}
+.home-btn-icon2 {
+  left: 1368px;
+}
+.index1 {
+  position: relative;
+  background-color: var(--color-lavenderblush);
+  width: 100%;
+  height: 2277px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightpink-100);
+  font-family: var(--font-mali);
+}

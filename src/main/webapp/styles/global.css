@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-mali: Mali;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --color-lavenderblush: #fdf0f0;
+  --color-darkslateblue-100: #1f4172;
+  --color-darkslateblue-200: rgba(31, 65, 114, 0.03);
+  --color-palevioletred-100: #dc8699;
+  --color-palevioletred-200: rgba(220, 134, 153, 0.2);
+  --color-white: #fff;
+  --color-black: #000;
+  --color-lightpink-100: #f4a2a2;
+  --color-lightpink-200: rgba(245, 168, 168, 0.4);
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-xl: 20px;
+  --br-8xs: 5px;
+}
+
+.button:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
