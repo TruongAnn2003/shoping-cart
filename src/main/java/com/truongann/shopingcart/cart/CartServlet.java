@@ -42,6 +42,12 @@ public class CartServlet  extends HttpServlet {
             }
             else if (action.equals("showcart")) {
                 url = "/cart.jsp";
+                cart = (Cart) session.getAttribute("cart");
+                if (cart == null) {
+                    cart = new Cart();
+                    session.setAttribute("cart", cart);
+                }
+
             }
             else if (action.equals("cart")) {
                 System.out.println("Add");

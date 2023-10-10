@@ -38,7 +38,7 @@
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
                             <input type="hidden" name="action" value="cart">
-                            <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
+                            <input style="color: white;cursor: pointer;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
                     <div class="price2">
@@ -67,7 +67,7 @@
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
                             <input type="hidden" name="action" value="cart">
-                            <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
+                            <input style="color: white;cursor: pointer;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
                     <div class="price2">
@@ -94,7 +94,7 @@
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
                             <input type="hidden" name="action" value="cart">
-                            <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
+                            <input style="color: white;cursor: pointer;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
                     <div class="price2">
@@ -125,7 +125,7 @@
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
                             <input type="hidden" name="action" value="cart">
-                            <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
+                            <input style="color: white;cursor: pointer;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
                     <div class="price2">
