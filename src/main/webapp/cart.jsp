@@ -46,12 +46,11 @@
           <div class="productname-item"></div>
           <b class="title1">Quantity</b>
           <input  type="submit" class="update-btn button  " value="Update" style="background: url(./public/update-btn.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 25%;">
-
-          <input class="productname-inner" type=text name="quantity"
+          <input class="quantity productname-inner" type=text name="quantity"
                  value="<c:out value='${item.quantity}'/>" id="quantity">
-          <img class="add-btn-icon button" alt="" src="./public/add-btn.svg" />
+          <img class="add add-btn-icon button" alt="" src="./public/add-btn.svg" />
 
-          <img class="add-btn-icon1 button" alt="" src="./public/add-btn1.svg" />
+          <img class="minus add-btn-icon1 button" alt="" src="./public/add-btn1.svg" />
         </form>
         <div class="productname2">
           <div class="rectangle-div"></div>
@@ -74,6 +73,8 @@
                  value="<c:out value='${item.product.code}'/>">
           <input type="hidden" name="quantity"
                  value="0">
+          <input type="hidden" name="action"
+                 value="remove">
           <input type="submit" value="Remove Item" class="delete-btn button" style="background: url(./public/delete-btn.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 20%;">
         </form>
 
@@ -100,5 +101,34 @@
 
   <img id="shopingBtn" class="shoping-btn-icon1 button" style="margin-top: -8px;" alt="" src="./public/shopingbtn1.svg" />
 </div>
+<script>
+  // Lấy tham chiếu đến phần tử input và nút button
+  var cartItems = document.querySelectorAll(".cart-item")
+  cartItems.forEach((item) => {
+    var inputElement = item.querySelector('.quantity');
+    var buttonElementAdd = item.querySelector('.add');
+    var buttonElementMinus = item.querySelector('.minus');
+    console.log("start: "+inputElement.value)
+    buttonElementAdd.addEventListener('click', function () {
+      var currentValue = parseInt(inputElement.value);
+      currentValue++;
+      inputElement.value = currentValue;
+      console.log("after add: "+inputElement.value)
+    });
+    buttonElementMinus.addEventListener('click', function () {
+      var currentValue = parseInt(inputElement.value);
+      if(currentValue>0){
+        currentValue--;
+      }
+      else {
+        currentValue = 0;
+      }
+      inputElement.value = currentValue;
+      console.log("after minus: "+inputElement.value)
+    });
+  });
+
+
+</script>
 </body>
 </html>

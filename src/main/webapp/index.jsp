@@ -37,6 +37,7 @@
                     <div class="btn-add button" >
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
+                            <input type="hidden" name="action" value="cart">
                             <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
@@ -65,6 +66,7 @@
                     <div class="btn-add button" >
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
+                            <input type="hidden" name="action" value="cart">
                             <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
@@ -91,6 +93,7 @@
                     <div class="btn-add button" >
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
+                            <input type="hidden" name="action" value="cart">
                             <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
@@ -121,6 +124,7 @@
                     <div class="btn-add button" >
                         <form action="cart" method="post" style="background-color: red">
                             <input type="hidden" name="productCode" value="<c:out value='${product.code}'/>">
+                            <input type="hidden" name="action" value="cart">
                             <input style="color: white;" class="btn-add-child" type="submit" value="Add To Cart">
                         </form>
                     </div>
@@ -138,9 +142,6 @@
 
 
     </c:forEach>
-
-
-
 
     <div class="index-child"></div>
     <img class="logo-icon2" alt="" src="./public/logo1.svg" />

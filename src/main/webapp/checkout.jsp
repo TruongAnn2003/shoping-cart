@@ -17,7 +17,10 @@
   <img class="group-icon" alt="" src="./public/group@2x.png" />
 
   <b class="checkout-isnt-finished">Checkout isn't finished yet!</b>
-  <img class="shopping-btn-icon button" alt="" src="./public/shoppingbtn.svg" />
+  <form action="" method="post" >
+    <input type="hidden" name="action" value="continue">
+    <input type="submit" class="shopping-btn-icon button" style="background: url(./public/shoppingbtn.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%;">
+  </form>
 
   <div class="checkout-item"></div>
   <img class="logo-icon" alt="" src="./public/logo.svg" />
