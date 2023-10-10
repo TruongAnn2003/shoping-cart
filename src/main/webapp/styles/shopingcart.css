@@ -399,10 +399,11 @@
 }
 .shoping-btn-icon1 {
   position: absolute;
-  top: 0;
-  left: 1426.42px;
-  width: 112.16px;
-  height: 96.58px;
+  top: 12px;
+  width: 57px;
+  height: 57px;
+  left: 1443px;
+  cursor: pointer;
 }
 .shopingcart {
   position: relative;

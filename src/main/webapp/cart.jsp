@@ -99,7 +99,11 @@
   <a href="http://www.tii.lol">
     <img class="home-btn-icon1 button" alt="" src="./public/homebtn.svg" /></a>
 
-  <img id="shopingBtn" class="shoping-btn-icon1 button" style="margin-top: -8px;" alt="" src="./public/shopingbtn1.svg" />
+
+  <form action="" method="post">
+    <input type="hidden" name="action" value="showcart">
+    <input type="submit" class="shoping-btn-icon1 button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%; margin-top: -2px; margin-left: 10px">
+  </form>
 </div>
 <script>
   // Lấy tham chiếu đến phần tử input và nút button
