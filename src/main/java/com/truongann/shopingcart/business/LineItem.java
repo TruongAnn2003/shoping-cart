@@ -2,6 +2,8 @@ package com.truongann.shopingcart.business;
 
 import java.io.Serializable;
 import java.text.NumberFormat;
+import java.util.Currency;
+import java.util.Locale;
 
 public class LineItem implements Serializable {
     private Product product;
@@ -31,7 +33,10 @@ public class LineItem implements Serializable {
     }
 
     public String getTotalCurrencyFormat() {
-        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        Currency customCurrency = Currency.getInstance("USD");
+        NumberFormat currency = NumberFormat.getCurrencyInstance(Locale.US);
+        currency.setCurrency(customCurrency);
         return currency.format(this.getTotal());
+
     }
 }

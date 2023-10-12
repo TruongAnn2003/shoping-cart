@@ -12,6 +12,8 @@
     />
 </head>
 <body>
+<div class="mouse">
+</div>
 <div class="index1">
     <img class="menu-img-icon" alt="" src="./public/menuimg@2x.png" />
 
@@ -153,6 +155,27 @@
         <img class="home-btn-icon2 button" alt="" src="./public/homebtn1.svg" /></a>
 </div>
 
-
+<script type="text/javascript">
+    const cursor = document.querySelector(".mouse")
+    var timeout;
+    document.addEventListener("mousemove", (e) => {
+        let x = e.clientX;
+        let y = e.clientY;
+        cursor.style.top = y + "px";
+        cursor.style.left = x + "px";
+        cursor.style.display = "block";
+        function mouseStopped() {
+            cursor.style.display = "none";
+        }
+        clearTimeout(timeout);
+        timeout = setTimeout(mouseStopped, 1000);
+    });
+    document.addEventListener("mouseout", () => {
+        cursor.style.display = "none";
+    })
+    document.addEventListener("mousedown", () => {
+        cursor.style.display = "none";
+    })
+</script>
 </body>
 </html>

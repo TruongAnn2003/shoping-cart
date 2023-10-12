@@ -12,6 +12,8 @@
   />
 </head>
 <body>
+<div class="mouse">
+</div>
 <div class="shopingcart">
   <div class="shopingcart-child"></div>
   <b class="your-cart">Your Cart</b>
@@ -102,7 +104,7 @@
 
   <form action="" method="post">
     <input type="hidden" name="action" value="showcart">
-    <input type="submit" class="shoping-btn-icon1 button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%; margin-top: -2px; margin-left: 10px">
+    <input type="submit" class="shoping-btn-icon1 button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%;">
   </form>
 </div>
 <script>
@@ -133,6 +135,28 @@
   });
 
 
+</script>
+<script type="text/javascript">
+  const cursor = document.querySelector(".mouse")
+  var timeout;
+  document.addEventListener("mousemove", (e) => {
+    let x = e.clientX;
+    let y = e.clientY;
+    cursor.style.top = y + "px";
+    cursor.style.left = x + "px";
+    cursor.style.display = "block";
+    function mouseStopped() {
+      cursor.style.display = "none";
+    }
+    clearTimeout(timeout);
+    timeout = setTimeout(mouseStopped, 1000);
+  });
+  document.addEventListener("mouseout", () => {
+    cursor.style.display = "none";
+  })
+  document.addEventListener("mousedown", () => {
+    cursor.style.display = "none";
+  })
 </script>
 </body>
 </html>

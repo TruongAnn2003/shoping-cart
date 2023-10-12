@@ -311,38 +311,36 @@
   height: 574px;
 }
 .index-child {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background-color: var(--color-darkslateblue-100);
-  width: 1540px;
+  width: 100%;
   height: 80px;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.10), 0px 17px 17px 0px rgba(0, 0, 0, 0.09), 0px 38px 23px 0px rgba(0, 0, 0, 0.05), 0px 68px 27px 0px rgba(0, 0, 0, 0.01), 0px 106px 30px 0px rgba(0, 0, 0, 0.00);
 }
 .logo-icon2 {
-  position: absolute;
-  height: 2.97%;
-  width: 2.79%;
-  top: 0.26%;
-  right: 94.55%;
-  bottom: 96.77%;
-  left: 2.66%;
+  position: fixed;
+  height: 60px;
+  width: 60px;
+  top: 0.85%;
+  left: 3%;
   max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
 }
 .home-btn-icon2,
 .shoping-btn-icon2 {
-  position: absolute;
+  position: fixed;
   top: 12px;
   width: 57px;
   height: 57px;
 }
 .shoping-btn-icon2 {
-  left: 1443px;
+  right: 0.2%;
   cursor: pointer;
 }
 .home-btn-icon2 {
-  left: 1368px;
+  right: 5%;
+  cursor: pointer;
 }
 .index1 {
   position: relative;

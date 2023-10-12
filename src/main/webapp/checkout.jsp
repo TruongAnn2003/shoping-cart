@@ -12,6 +12,8 @@
   />
 </head>
 <body>
+<div class="mouse">
+</div>
 <div class="checkout">
   <div class="checkout-child"></div>
   <img class="group-icon" alt="" src="./public/group@2x.png" />
@@ -30,6 +32,27 @@
 
   <img id="shopingBtn" class="shoping-btn-icon button" alt="" src="./public/shopingbtn.svg" />
 </div>
-
+<script type="text/javascript">
+  const cursor = document.querySelector(".mouse")
+  var timeout;
+  document.addEventListener("mousemove", (e) => {
+    let x = e.clientX;
+    let y = e.clientY;
+    cursor.style.top = y + "px";
+    cursor.style.left = x + "px";
+    cursor.style.display = "block";
+    function mouseStopped() {
+      cursor.style.display = "none";
+    }
+    clearTimeout(timeout);
+    timeout = setTimeout(mouseStopped, 1000);
+  });
+  document.addEventListener("mouseout", () => {
+    cursor.style.display = "none";
+  })
+  document.addEventListener("mousedown", () => {
+    cursor.style.display = "none";
+  })
+</script>
 </body>
 </html>
