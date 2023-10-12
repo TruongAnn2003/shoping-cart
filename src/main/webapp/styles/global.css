@@ -39,7 +39,7 @@ body::-webkit-scrollbar{
   width: 20px;
 }
 body::-webkit-scrollbar-thumb{
-  background-image: url("/public/cat.svg");
+  background-image: url("../public/cat.svg");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;

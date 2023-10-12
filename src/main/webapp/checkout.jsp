@@ -21,7 +21,7 @@
   <b class="checkout-isnt-finished">Checkout isn't finished yet!</b>
   <form action="" method="post" >
     <input type="hidden" name="action" value="continue">
-    <input type="submit" class="shopping-btn-icon button" style="background: url(./public/shoppingbtn.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%;">
+    <input type="submit" class="shopping-btn-icon button" style="background: url(./public/shoppingbtn.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; margin-left: -120px; width:auto;">
   </form>
 
   <div class="checkout-item"></div>
@@ -29,8 +29,10 @@
   <a href="http://www.tii.lol">
     <img class="home-btn-icon button" alt="" src="./public/homebtn.svg" />
   </a>
-
-  <img id="shopingBtn" class="shoping-btn-icon button" alt="" src="./public/shopingbtn.svg" />
+  <form action="" method="post">
+    <input type="hidden" name="action" value="showcart">
+    <input type="submit" class="shoping-btn-icon button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: auto;">
+  </form>
 </div>
 <script type="text/javascript">
   const cursor = document.querySelector(".mouse")

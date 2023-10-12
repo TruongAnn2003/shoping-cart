@@ -149,7 +149,7 @@
     <img class="logo-icon2" alt="" src="./public/logo1.svg" />
     <form action="" method="post">
         <input type="hidden" name="action" value="showcart">
-        <input type="submit" class="shoping-btn-icon2 button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%;">
+        <input type="submit" class="shoping-btn-icon2 button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: auto;">
     </form>
     <a href="http://www.tii.lol">
         <img class="home-btn-icon2 button" alt="" src="./public/homebtn1.svg" /></a>

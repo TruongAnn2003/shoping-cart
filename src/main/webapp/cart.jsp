@@ -85,7 +85,7 @@
   </div>
   <form action="" method="post" >
     <input type="hidden" name="action" value="shop">
-    <input type="submit" class="shopping-btn-icon1 button" style="background: url(./public/shoppingbtn.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%;">
+    <input type="submit" class="shopping-btn-icon1 button" style="background: url(./public/shoppingbtn.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%; margin-left: -150px;">
   </form>
 
   <form action="" method="post"  >
@@ -104,7 +104,7 @@
 
   <form action="" method="post">
     <input type="hidden" name="action" value="showcart">
-    <input type="submit" class="shoping-btn-icon1 button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: 9.5%;">
+    <input type="submit" class="shoping-btn-icon1 button" style="background: url(./public/shopingbtn2.svg);border-width: 0px; color: transparent; background-repeat: no-repeat; width: auto;">
   </form>
 </div>
 <script>
