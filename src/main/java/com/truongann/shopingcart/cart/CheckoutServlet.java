@@ -20,7 +20,7 @@ public class CheckoutServlet extends HttpServlet {
 
         // get current action
         String action = request.getParameter("action");
-
+        HttpSession session = request.getSession();
         String url = "/index.jsp";
         if (action.equals("continue")) {
             url = "/index.jsp";    // the "index" page

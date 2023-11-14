@@ -6,6 +6,11 @@ import java.util.Currency;
 import java.util.Locale;
 
 public class LineItem implements Serializable {
+    public LineItem(Product product, int quantity) {
+        this.product = product;
+        this.quantity = quantity;
+    }
+
     private Product product;
     private int quantity;
 

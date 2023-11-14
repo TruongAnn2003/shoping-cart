@@ -12,7 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7d86da9d-da3d-4e28-9437-e323a6890524" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/business/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/business/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/business/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/business/LineItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/cart/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/cart/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/cart/CheckoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/truongann/shopingcart/cart/CheckoutServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +180,8 @@
       <workItem from="1697120235966" duration="3614000" />
       <workItem from="1697127725379" duration="1512000" />
       <workItem from="1697129988385" duration="1921000" />
-      <workItem from="1699926520966" duration="947000" />
+      <workItem from="1699926520966" duration="5606000" />
+      <workItem from="1699936063376" duration="478000" />
     </task>
     <servers />
   </component>
