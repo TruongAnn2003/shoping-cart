@@ -126,6 +126,7 @@ public class CartServlet  extends HttpServlet {
                 RemoveProduct(request,response);
             }
             else if (action.equals("checkout")) {
+                session.setAttribute("cart",new Cart());
                 url = "/checkout.jsp";
             }
             sc.getRequestDispatcher(url)
